@@ -5,15 +5,8 @@ public class RedisClientTest {
 
     public static void main(String[] args) {
 
-//        Conntection conntection = new Conntection("94.191.95.57", 6379);
-//        Command command = new Command(conntection);
-//        String res = command.set("huhu", "fast");
-//        System.out.println(res);
-//
-//        String vals = command.get("huhu");
-//        System.out.println("redis get key-valus:" + vals);
 
-        String host = "94.191.95.57";
+        String host = "localhost";
 
 
         Client client = new Client(host, 6379);
