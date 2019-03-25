@@ -1,6 +1,5 @@
 package com.ha.redis;
 
-import redis.clients.jedis.Jedis;
 
 public class RedisClientTest {
 
